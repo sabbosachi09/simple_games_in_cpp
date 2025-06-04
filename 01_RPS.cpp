@@ -38,7 +38,7 @@ char UserChoice()
         cout << "******************************\n";
         cout << "'r' for Rock\n";
         cout << "'p' for Paper\n";
-        cout << "'s' for Scissors\n\n";
+        cout << "'s' for Scissors\n";
         cout << "Enter your choice: ";
         cin >> player;
     } while (player != 'r' && player != 'p' && player != 's');
