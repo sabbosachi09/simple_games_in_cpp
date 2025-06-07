@@ -10,8 +10,8 @@ bool checkTie(char *spaces);
 int main()
 {
     char spaces[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
-    char player = 'X';
     char computer = 'O';
+    char player = 'X';
     bool running = true;
 
     drawBoard(spaces);
